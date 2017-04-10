@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ConcreteCSS test layout</title>
+    <link rel="stylesheet" href="stylesheets/concrete0.2.css">
+
+    <!-- Set the viewport width to device width for mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
+  <body>
+    <div class="row center">
+      <h1>Examples using ConcreteCSS</h1>
+      <p>The below examples have the most common layouts used in web design. ConcreteCSS has two break points, one at 768px and one at 600px width. <br>Hope it helps you build your web layout.</p>
+    </div>
+
+    <div class="row">
+      <header class="col-12 col-m-12">
+        <h2>Desktop 3 columns, mobile and tablet 3x100%width</h2>
+        <p>Typical 3 column with menu on the left. At 768px all colums occupy the 100% of the width but there are two menu options per row. At 600px just one option per row. </p>
+      </header>
+      <div class="col-2 col-m-12 center"> <!-- Menu left -->
+          <div class="col-12 col-m-6">
+            <a href="#">Menu link one</a>
+          </div>
+          <div class="col-12 col-m-6">
+            <a href="#">Menu link two</a>
+          </div>
+          <div class="col-12 col-m-6">
+            <a href="#">Menu link three</a>
+          </div>
+          <div class="col-12 col-m-6">
+            <a href="#">Menu link four</a>
+          </div>
+          <div class="col-12 col-m-6">
+            <a href="#">Menu link five</a>
+          </div>
+          <div class="col-12 col-m-6">
+            <a href="#">Menu link six</a>
+          </div>
+          <div class="col-12 col-m-6">
+            <a href="#">Menu link seven</a>
+          </div>
+          <div class="col-12 col-m-6">
+            <a href="#">Menu link eight</a>
+          </div>
+      </div>
+      <div class="col-8 col-m-12"> <!-- Main column -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div class="col-2 col-m-12 center"> <!-- Menu right -->
+          <div class="col-12 col-m-6">
+            <a href="#">Menu link one 2</a>
+          </div>
+          <div class="col-12 col-m-6">
+            <a href="#">Menu link two 2</a>
+          </div>
+          <div class="col-12 col-m-6">
+            <a href="#">Menu link three 2</a>
+          </div>
+          <div class="col-12 col-m-6">
+            <a href="#">Menu link four 2</a>
+          </div>
+      </div>
+      <footer class="col-12 col-m-12 center">This is the footer of this section</footer>
+    </div> <!-- ROW END -->
+
+
+    <hr>
+
+
+    <div class="row">
+      <header class="col-12 col-m-12">
+        <h2>Desktop 2 columns, mobile and tablet 2x100%</h2>
+        <p>In this case, just two columns. Again, the menu has two break points, at 768px it displays 2 menu items per row and at 600px each menu item is in a row.</p>
+      </header>
+      <div class="col-3 col-m-12 center"> <!-- Menu left -->
+        <div class="col-12 col-m-6">
+          <a href="#">Menu link one</a>
+        </div>
+        <div class="col-12 col-m-6">
+          <a href="#">Menu link two</a>
+        </div>
+        <div class="col-12 col-m-6">
+          <a href="#">Menu link three</a>
+        </div>
+        <div class="col-12 col-m-6">
+          <a href="#">Menu link four</a>
+        </div>
+        <div class="col-12 col-m-6">
+          <a href="#">Menu link five</a>
+        </div>
+        <div class="col-12 col-m-6">
+          <a href="#">Menu link six</a>
+        </div>
+        <div class="col-12 col-m-6">
+          <a href="#">Menu link seven</a>
+        </div>
+        <div class="col-12 col-m-6">
+          <a href="#">Menu link eight</a>
+        </div>
+      </div>
+      <div class="col-9 col-m-12"> <!-- Main column -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <footer class="col-12 col-m-12 center">This is the footer of this section</footer>
+    </div><!-- ROW END -->
+
+
+    <hr>
+
+  </body>
+</html>
